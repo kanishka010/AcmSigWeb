@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            color:rgb(255, 255, 255);
+            font-family:sans-serif;
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            transform: translateY(-50%);
+            text-align: left;
+        }
+        p{
+            color:rgb(255, 255, 255);
+            font-family:verdana;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            text-align: left;    
+        }
+        button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 300px 70px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(241, 197, 113); 
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background:rgb(241, 197, 113);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border: none;
+}
+    </style>
+    <title>Little paws</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+      <div class="navbar">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Enquiry</a></li>
+              <li><a href="#">Adopted paws</a></li>
+              <li><a href="#">QnA</a></li>
+          </ul>
+      </div>
+      <h1><u>Adopt a Stray</u></h1><br>
+     <br> <p>These little paws are the best company you'll ever need.<br> 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <b>TRY NOT TO SHOP BUT ADOPT.</b></p>
+          <button type="button"><span></span>ADOPT</button>
+          <button type="button"><span></span>DONATE</button>
+    </div>
+    
+</body>
+</html>
